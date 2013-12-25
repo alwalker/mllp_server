@@ -1,17 +1,20 @@
 apply plugin: 'java'
+apply plugin:'application'
 
-repositories {
-    mavenCentral()
-}
-
+mainClassName = 'com.alwalker.mllp_server.Server'
 sourceCompatibility = 1.7
 version = '1.0'
+
 jar {
     manifest {
         attributes ('Implementation-Title': 'MLLP Server',
         			'Implementation-Version': version, 
         			'Main-Class': 'com.alwalker.mllp_server.Server')
     }
+}
+
+repositories {
+    mavenCentral()
 }
 
 dependencies {
