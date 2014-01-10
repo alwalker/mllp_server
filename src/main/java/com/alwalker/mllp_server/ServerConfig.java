@@ -4,6 +4,7 @@ public class ServerConfig {
 
 	public enum FrameEncodingType { ASCII, HEX }
 
+	private String id;
 	private String listenerAddress;
 	private int listenerPort;
 	private int recieveTimeout;
@@ -23,6 +24,13 @@ public class ServerConfig {
 	private String rejectedACKCode;
 	private String rejectedACKMessage;
 	private boolean ackOnNewConnection;
+
+	public String getId() {
+		return this.id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
 
 	public String getListenerAddress() {
 		return this.listenerAddress;
