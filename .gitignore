@@ -4,6 +4,7 @@
 *.war
 *.ear
 
+classes
 build
 .gradle
 
