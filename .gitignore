@@ -1,6 +1,7 @@
 *.class
 
 *.jar
+!gradle-wrapper.jar
 *.war
 *.ear
 

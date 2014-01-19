@@ -5,6 +5,10 @@ mainClassName = 'com.alwalker.mllp_server.Server'
 sourceCompatibility = 1.7
 version = '1.0'
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.10'
+}
+
 jar {
     manifest {
         attributes ('Implementation-Title': 'MLLP Server',
