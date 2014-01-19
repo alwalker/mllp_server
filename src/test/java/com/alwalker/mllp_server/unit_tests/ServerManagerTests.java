@@ -1,10 +1,10 @@
-package com.alwalker.mllp_server.tests;
+package com.alwalker.mllp_server.unit_tests;
 
 import com.alwalker.mllp_server.ServerManager;
-import com.alwalker.mllp_server.tests.helper_classes.TestCreateServerListener;
-import com.alwalker.mllp_server.tests.helper_classes.TestDeleteServerListener;
-import com.alwalker.mllp_server.tests.helper_classes.TestModifyServerListener;
-import com.alwalker.mllp_server.tests.helper_classes.TestPoller;
+import com.alwalker.mllp_server.unit_tests.helper_classes.TestCreateServerListener;
+import com.alwalker.mllp_server.unit_tests.helper_classes.TestDeleteServerListener;
+import com.alwalker.mllp_server.unit_tests.helper_classes.TestModifyServerListener;
+import com.alwalker.mllp_server.unit_tests.helper_classes.TestPoller;
 import org.junit.Assert;
 import org.junit.Test;
 
